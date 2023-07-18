@@ -7,11 +7,14 @@ body{
     box-sizing: border-box;
 }
 /* header styles starts here */
+header{
+    max-width: 1400px;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -22,7 +25,7 @@ body{
 .nav-logo > h1{
     color: #0B0223;
     font-weight: 700;
-    font-size: 3    0px;
+    font-size: 30px;
 }
 .nav-logo{
     display: flex;
