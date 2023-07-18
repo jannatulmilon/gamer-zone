@@ -13,36 +13,7 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 10px;
-  }
-  .box {
-    grid-template-columns: 1fr;
-  }
-  .box-item {
-    margin: 0 auto;
-  }
-  .box-content {
-    width: 100%;
-    text-align: center;
-  }
-  .box .box-item {
-    height: 200px;
-    width: 200px;
-  }
-  .fa-solid{
-    font-size: 15px;
-  }
-
-  .box .play-button {
-    top: 35%;
-    left: 38%;
-   
-  }
-
-  .box .text-overlay {
-    top: 60%;
-    left: 30%;
-  }
-  
+  } 
 }
 /* tablets */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -59,22 +30,5 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 10px;
-  }
-  .box {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .fa-solid{
-    font-size: 20px;
-    
-  }
-  .box .play-button {
-    top: 35%;
-    left: 38%;
-   
-  }
-
-  .box .text-overlay {
-    top: 50%;
-    left: 33%;
   }
 }
