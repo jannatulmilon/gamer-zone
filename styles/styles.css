@@ -94,10 +94,11 @@ header {
 }
 .overlay {
   position: absolute;
-  background-color: #461919ad;
+  background-color: #120404ad;
   height: 100%;
   width: 100%;
   opacity: 0;
+  margin: 0 auto;
   top: 0;
   left: 0;
   border-radius: 10px;
@@ -113,13 +114,16 @@ header {
   background-color: rgba(5, 5, 5, 0.741);
   border-radius: 50%;
   color: rgba(246, 245, 243, 0.684);
+  font-size: 30px;
+  text-align: center;
 }
 .box .text-overlay {
   position: absolute;
   top: 60%;
-  left: 32%;
+  left: 35%;
   color: #ff42a5;
   opacity: 0;
+  text-align: center;
 }
 .box-item:hover .play-button,
 .box-item:hover .text-overlay,

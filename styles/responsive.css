@@ -28,6 +28,9 @@
     height: 200px;
     width: 200px;
   }
+  .fa-solid{
+    font-size: 15px;
+  }
 
   .box .play-button {
     top: 35%;
@@ -59,6 +62,10 @@
   }
   .box {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .fa-solid{
+    font-size: 20px;
+    
   }
   .box .play-button {
     top: 35%;
