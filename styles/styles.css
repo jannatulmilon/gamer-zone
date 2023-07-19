@@ -74,6 +74,10 @@ header {
 /* main style starts */
 
 /* banner styles here */
+.banner-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .banner {
   display: flex;
   align-items: center;
