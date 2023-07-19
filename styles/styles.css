@@ -288,6 +288,7 @@ footer{
 }
 .about p{
   margin: 10px 60px;
+  cursor: pointer;
 }
 .social{
   display: flex;
@@ -298,6 +299,7 @@ footer{
   color: aliceblue;
   font-size: 50px;
   margin: 30px 30px;
+  cursor: pointer;
 }
 .term{
   display:flex ;
@@ -307,6 +309,7 @@ footer{
 }
 .term p{
   margin: 10px 30px;
+  cursor: pointer;
 }
 .copyright{
   color: gray;
