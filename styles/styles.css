@@ -23,10 +23,14 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
-.fa-youtube{
+.fa-youtube {
   color: red;
   font-size: 20px;
   margin: 0 15px;
+  cursor: pointer;
+}
+.fa-tiktok{
+  cursor: pointer;
 }
 .gstyle {
   color: #ff42ff;
@@ -66,10 +70,53 @@ header {
   border-radius: 5px;
   padding: 10px;
 }
-/* header style ends */
 
 /* main style starts */
 
+/* banner styles here */
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.banner-text {
+  width: 50%;
+}
+.banner-text h2{
+  font-size: 40px;
+  color:#140441;
+  font-weight: 600;
+  margin: 5px auto;
+  
+}
+.banner-text h1{
+  font-size: 80px;
+  font-weight: 700;
+  margin: 5px auto;
+  
+}
+.banner-img {
+  width: 50%;
+  padding: 50px;
+}
+.banner-img > img{
+  height: 100%;
+  width: 100%;
+}
+.btn-one, .btn-two{
+  padding: 20px 40px;
+  border: none; border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.btn-one{
+  background-color: #FF42A5;
+}
+.btn-two{
+  background-color: rgb(46, 165, 165);
+}
 
 /* box style here */
 .online-games {
@@ -81,33 +128,32 @@ header {
   text-align: center;
   margin: 0 auto;
 }
-.funny-videos{
-  background: linear-gradient(to bottom, #F948B2, #8758F1);
+.funny-videos {
+  background: linear-gradient(to bottom, #f948b2, #8758f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.text h1{
+.text h1 {
   font-size: 40px;
-  color: #0B0223;
+  color: #0b0223;
 }
 
-.box{
+.box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
   gap: 20px;
-  max-width: 1200px ;
+  max-width: 1200px;
 }
-.box-content{
+.box-content {
   width: 100%;
   text-align: center;
-
 }
-.box-img{
+.box-img {
   position: relative;
   width: 100%;
 }
-.overlay{
+.overlay {
   position: absolute;
   left: 0;
   top: 0;
@@ -121,57 +167,56 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  
 }
-.overlay > .play-button{
+.overlay > .play-button {
   font-size: 30px;
 }
-.overlay  p{
+.overlay p {
   font-size: 20px;
   color: #ff42ff;
   font-weight: 700;
 }
-.box-img img{
+.box-img img {
   width: 100%;
 }
 .box-desc {
   height: 40px;
   font-weight: 500;
 }
-.box-img:hover .overlay{
-  opacity: .8;
+.box-img:hover .overlay {
+  opacity: 0.8;
 }
 
 /* online 2 style here */
-.online-two{
+.online-two {
   max-width: 1200px;
   margin: 100px auto;
   display: flex;
   height: 500px;
 }
-.img-content{
+.img-content {
   height: 80%;
   position: relative;
   margin-top: 0;
 }
-.img-content > img{
+.img-content > img {
   height: 100%;
 }
-.overlay-img{
+.overlay-img {
   width: 300px;
   height: 300px;
   position: absolute;
   top: 63%;
   left: 75%;
 }
-.overlay-img > img{
+.overlay-img > img {
   height: 100%;
   width: 100%;
 }
-.text-content{
+.text-content {
   width: 300px;
   margin: auto;
 }
-.text-content h1{
+.text-content h1 {
   font-size: 30px;
 }
