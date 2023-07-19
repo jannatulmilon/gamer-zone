@@ -26,6 +26,7 @@ header {
 .fa-youtube{
   color: red;
   font-size: 20px;
+  margin: 0 15px;
 }
 .gstyle {
   color: #ff42ff;
@@ -59,12 +60,18 @@ header {
   background-color: #d9d9ea;
   width: 200px;
   text-align: center;
-  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
+  padding: 10px;
 }
 /* header style ends */
 
 /* main style starts */
+
+
+/* box style here */
 .online-games {
   margin: 0 auto;
 }
@@ -135,3 +142,36 @@ header {
   opacity: .8;
 }
 
+/* online 2 style here */
+.online-two{
+  max-width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  height: 500px;
+}
+.img-content{
+  height: 80%;
+  position: relative;
+  margin-top: 0;
+}
+.img-content > img{
+  height: 100%;
+}
+.overlay-img{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 63%;
+  left: 75%;
+}
+.overlay-img > img{
+  height: 100%;
+  width: 100%;
+}
+.text-content{
+  width: 300px;
+  margin: auto;
+}
+.text-content h1{
+  font-size: 30px;
+}
