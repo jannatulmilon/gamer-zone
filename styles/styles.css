@@ -9,6 +9,7 @@ body {
 .text-desc {
   color: #534c64;
   font-weight: 500;
+  font-size: 15px;
 }
 /* header styles starts here */
 header {
@@ -22,7 +23,10 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.fa-youtube{
+  color: red;
+  font-size: 20px;
+}
 .gstyle {
   color: #ff42ff;
 }
@@ -55,7 +59,7 @@ header {
   background-color: #d9d9ea;
   width: 200px;
   text-align: center;
-  padding: 15px 25px;
+  padding: 10px 25px;
   border-radius: 5px;
 }
 /* header style ends */
@@ -70,8 +74,19 @@ header {
   text-align: center;
   margin: 0 auto;
 }
+.funny-videos{
+  background: linear-gradient(to bottom, #F948B2, #8758F1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text h1{
+  font-size: 40px;
+  color: #0B0223;
+}
+
 .box{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
   gap: 20px;
   max-width: 1200px ;
@@ -79,9 +94,11 @@ header {
 .box-content{
   width: 100%;
   text-align: center;
+
 }
 .box-img{
   position: relative;
+  width: 100%;
 }
 .overlay{
   position: absolute;
@@ -96,6 +113,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   
 }
 .overlay > .play-button{
